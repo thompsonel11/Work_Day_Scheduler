@@ -1,1 +1,3 @@
-# Work_Day_Scheduler
+# Work Day Scheduler
+
+![](pics/DisplayDate.png)
