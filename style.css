@@ -75,4 +75,9 @@ body {
     display: block;
     margin: auto;
   }
+
+  .hours {
+    text-align: center;
+    margin:auto;
+  }
   
