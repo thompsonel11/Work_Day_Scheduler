@@ -14,16 +14,16 @@ $('.time').each(function(){
     console.log (HTMLTime, 'HTMLTime')
 
     if (HTMLTime < currentTime) {
-        $(this).addClass('past')
+        $(this.children[1]).addClass('past')
     }
     else if (HTMLTime === currentTime) {
-        $(this).removeClass('past')
-        $(this).addClass('present')
+        $(this.children[1]).removeClass('past')
+        $(this.children[1]).addClass('present')
     }
     else {
-        $(this).removeClass('past')
-        $(this).removeClass('present')
-        $(this).addClass('future')
+        $(this.children[1]).removeClass('past')
+        $(this.children[1]).removeClass('present')
+        $(this.children[1]).addClass('future')
     }
 })
 
