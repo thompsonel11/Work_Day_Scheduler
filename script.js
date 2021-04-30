@@ -5,8 +5,7 @@ var textInputEl = $('.textInput');
 // Display the current date underneath header 
 $("#currentDay").text(moment().format('dddd, MMMM Do'));
 
-// Get the current time and use to manipulate colors 
-
+// Get the current time and use to manipulate colors (past/present/future)
 var currentTime = moment().hours();
 console.log(currentTime, 'time')
 $('.time').each(function(){
